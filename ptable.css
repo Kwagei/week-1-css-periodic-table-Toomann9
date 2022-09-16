@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(192, 169, 169, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover{
+    background: rgba(85, 27, 1, 0.5); 
+}
+.retro:hover{
+ /* display: flex; */
+ justify-content: space-between;
+ margin: auto 5%;
+ background: rgba(31, 4, 1, 0.5); 
+ box-shadow: 5px 4px 3px 2px rgb(14, 13, 11);
+     border: 2px solid rgb(233, 56, 2);
+     display: inline-block;
+}
